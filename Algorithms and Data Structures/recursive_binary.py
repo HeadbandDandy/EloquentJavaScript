@@ -1,4 +1,6 @@
 #  returns a true value instead of an indexed value
+# recursion calls it self, function will call itself until the list does 
+# not exist anymore. Logarithmic  time algo and is language dependent.
 def recursive_binary(list, target):
     if len(list) == 0: 
         return False
