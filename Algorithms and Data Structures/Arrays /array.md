@@ -8,4 +8,19 @@ Arrays can also be homogenous or heterogenous depending on the coding language.
  -Searching for an arbitrary values
  -Need to be able to easily add values
  -Need to be able to easily delete values
- 
+
+
+ Append Operations
+ -Are constant time functions
+
+ Insert Operation
+ -Needs to shift everything to the right
+
+
+ Extend Operations
+ -pass in new lists entirely
+ -takes another list to add
+ -essentially makes a series of appending calls
+
+ Delete Operations
+ -Shift items out and move them to the left
