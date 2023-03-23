@@ -6,6 +6,4 @@ class Solution:
 
        
         seen = set(sentence)
-
-       
         return len(seen) == 26
